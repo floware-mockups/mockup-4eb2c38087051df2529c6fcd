@@ -1,0 +1,155 @@
+{
+  "title": "Inventario degli arredi scolastici",
+  "description": "Gestisci arredi per aula, quantità e stato di conservazione con riepiloghi e tabelle filtrabili.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Riepilogo",
+      "description": "Panoramica dell'inventario e delle condizioni degli arredi.",
+      "metrics": [
+        {
+          "label": "Aule censite",
+          "value": "8"
+        },
+        {
+          "label": "Tipi di arredo",
+          "value": "6"
+        },
+        {
+          "label": "Pezzi inventariati",
+          "value": "94"
+        },
+        {
+          "label": "Da verificare",
+          "value": "7"
+        }
+      ],
+      "columns": [
+        "Aula",
+        "Arredo",
+        "Quantità",
+        "Stato di conservazione"
+      ],
+      "rows": [
+        [
+          "Lumo 1",
+          "Banco",
+          "18",
+          "Buono"
+        ],
+        [
+          "Lumo 1",
+          "Sedia",
+          "20",
+          "Buono"
+        ],
+        [
+          "Vela 2",
+          "Armadio",
+          "2",
+          "Da verificare"
+        ],
+        [
+          "Nubi 3",
+          "Tavolo",
+          "4",
+          "Ottimo"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "arredi",
+      "title": "Arredi",
+      "description": "Consulta e filtra gli arredi censiti per aula, quantità e stato.",
+      "metrics": [],
+      "columns": [
+        "Aula",
+        "Arredo",
+        "Quantità",
+        "Stato di conservazione"
+      ],
+      "rows": [
+        [
+          "Lumo 1",
+          "Banco",
+          "18",
+          "Buono"
+        ],
+        [
+          "Lumo 1",
+          "Sedia",
+          "20",
+          "Buono"
+        ],
+        [
+          "Lumo 1",
+          "Lavagna",
+          "1",
+          "Da verificare"
+        ],
+        [
+          "Vela 2",
+          "Armadio",
+          "2",
+          "Da verificare"
+        ],
+        [
+          "Vela 2",
+          "Banco",
+          "16",
+          "Buono"
+        ],
+        [
+          "Vela 2",
+          "Sedia",
+          "18",
+          "Discreto"
+        ],
+        [
+          "Nubi 3",
+          "Tavolo",
+          "4",
+          "Ottimo"
+        ],
+        [
+          "Nubi 3",
+          "Sedia",
+          "12",
+          "Buono"
+        ],
+        [
+          "Nubi 3",
+          "Scaffale",
+          "2",
+          "Discreto"
+        ],
+        [
+          "Lumo 4",
+          "Banco",
+          "14",
+          "Buono"
+        ],
+        [
+          "Lumo 4",
+          "Sedia",
+          "16",
+          "Da verificare"
+        ],
+        [
+          "Lumo 4",
+          "Lavagna",
+          "1",
+          "Ottimo"
+        ]
+      ],
+      "form": [
+        "Aula",
+        "Arredo",
+        "Quantità",
+        "Stato di conservazione"
+      ]
+    }
+  ]
+}
